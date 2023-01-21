@@ -29,7 +29,7 @@ VALUES ("Lawyer", 190000, 4);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("John", "Doe", 1, 3);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Ali", "Rudnick", 2, 1);
+VALUES ("Ali", "Rudnick", 2, 4);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Marie", "Zimm", 3, null);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
@@ -41,4 +41,4 @@ VALUES ("Cam", "Mobley", 2, null);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Elyse", "Detling", 4, 7);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Natalie", "Sasso", 1, 2);
+VALUES ("Natalie", "Sasso", 1, 5);

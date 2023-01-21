@@ -1,0 +1,25 @@
+{
+  "name": "employee-tracker_rudnick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirudnick/Employee-Tracker_rudnick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirudnick/Employee-Tracker_rudnick/issues"
+  },
+  "homepage": "https://github.com/alirudnick/Employee-Tracker_rudnick#readme"
+}

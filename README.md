@@ -36,6 +36,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Mock-Up
 The following video shows an example of the application being used from the command line:
+<iframe src="https://drive.google.com/file/d/1VJmZztLSUtmeMdAnMKDp71GisZ49ylXc/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Links
 Link to Github: https://github.com/alirudnick/Employee-Tracker_rudnick

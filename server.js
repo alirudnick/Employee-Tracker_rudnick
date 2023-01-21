@@ -54,7 +54,7 @@ function start(){
       case 'Add a Role':
         addNewRole();
         break;
-      case 'Ann an Employee':
+      case 'Add an Employee':
         addEmployee();
         break;
       case 'Update an Employee':
@@ -183,28 +183,28 @@ function addEmployee() {
       {
         type: 'input',
         message: 'Please enter employee first name.',
-        name: 'addEmployeeFirstName'
+        name: 'addEmpFirstName'
       },
       {
         type: 'input',
         message: 'Please enter employee last name.',
-        name: 'addEmployeeLastName'
+        name: 'addEmpLastName'
       },
       {
         type: 'list',
         message: `What is this employee's role?`,
-        name: 'addEmployeeRole',
+        name: 'addEmpRole',
         choices: role
       },
       {
         type: 'list',
         message: 'Who is this employees manager?',
-        name: 'addEmployeeManager',
+        name: 'addEmpManager',
         choices: employee
       }
     ])
     .then((answers) => {
-      connection.promise().query('INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES(?, ?, ?, ?)', [answers.addEmployeeFirstName, answers.addEmployeeLastName, answers.addEmployeeRole, answers.addEmployeeManager])
+      connection.promise().query('INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES(?, ?, ?, ?)', [answers.addEmpFirstName, answers.addEmpLastName, answers.addEmpRole, answers.addEmpManager])
       .then(function (results) {
           connection.query('SELECT * FROM employee', function (err, results) {
             err ? console.err(err) : console.table(results)
